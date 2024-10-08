@@ -12,6 +12,8 @@
     "lib": ["ESNext", "DOM"],
     "skipLibCheck": true,
     "noEmit": true,
+    "typeRoots": ["node_modules/@types", "./types"],
+    "types": ["three"],
     "paths": {
       "@/*": ["./src/*"]
     }
